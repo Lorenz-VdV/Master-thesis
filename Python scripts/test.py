@@ -1,1 +1,1 @@
-print(len([None]))
+import GOremapping as go
