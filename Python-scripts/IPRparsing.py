@@ -74,7 +74,7 @@ def Find_proteins(species,IPR):
     return outp
 
 
-def Make_P2IPR_hum():
+def MakeP2IPR_hum():
     print('start making IPR hum dict')
     IPR_entry=[]
     P2IPR_full_hum={}

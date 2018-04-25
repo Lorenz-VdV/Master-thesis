@@ -138,12 +138,14 @@ for key in root:
 def Remap (GO_ID, goal_depth):
 
 #Tackling special situations
+    if GO_ID not in GO_entries.keys():
+        return 'None'
     if goal_depth == 0:
         return Find_GO_ID(GO_entries[GO_ID][2])
 
     if GO_Parents[GO_ID] == ['obsolete']:
         print (str(GO_ID) + 'This term is obsolete')
-        return None
+        return 'None'
 
     if goal_depth < 0:
         return("goal_depth can't be a negative integer")
@@ -167,14 +169,14 @@ def Remap (GO_ID, goal_depth):
         init_depth = GO_entries[GO_ID][3]
 #trivial anwser
     if goal_depth == init_depth:
-        return GO_ID
+        return [GO_ID]
 #diff < 0 means goal depth is more specific thus we need to find all child terms at goal depth
 #diff>0 means goal depth is more general thus we need to find parents at goal depth
     else:
         diff = init_depth - goal_depth
         if diff < 0: #MAG NIET!!!! Voer check in met waarschuwing
             #print("You cannot map to terms with a higher depth. The depth of " + str(GO_ID)+ " is " + str(init_depth))
-            return GO_ID
+            return [GO_ID]
         elif diff>0:
             out_list=[]
             for i in range(0,init_depth):
