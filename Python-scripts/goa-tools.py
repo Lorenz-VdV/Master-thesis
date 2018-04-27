@@ -13,17 +13,16 @@ import GOremapping as gor
 parser = argparse.ArgumentParser(description = 'making files for gene enrichment analysis')
 
 parser.add_argument('-o', '--origin', default = '/Users/thesis/Desktop/', help = 'Enter path of interaction datasets that you want to analyse')
-parser.add_argument('-b', '--background', default = '/Users/thesis/Desktop/', help = 'Enter path of background set')
 parser.add_argument('-t', '--target', default = '/Users/thesis/Desktop/', help = 'Enter path for target files')
 parser.add_argument('-s', '--species', default = None, help = 'Enter subject species')
 parser.add_argument('-d', '--depth', default = '', help = 'Enter desired depth of GO terms')
 parser.add_argument('-r', '--remap', action= 'store_true', help ='add flag if remapping is desired')
-parser.add_argument('-l', '--label', action= 'store_true', help= 'add flag if distinction between host and pathogen should be made')
+#parser.add_argument('-l', '--label', action= 'store_true', help= 'add flag if distinction between host and pathogen should be made')
 
 results = parser.parse_args()
 
-label = results.label
-print('label is' + str(label))
+#label = results.label
+#print('label is' + str(label))
 species = results.species
 remap = results.remap
 print('remap is' + str(remap))
@@ -36,8 +35,8 @@ if remap == True:
 setup =''
 if remap == True:
     setup= setup + '-depth-' + str(depth)
-if label == True:
-    setup= setup + '-label'
+#if label == True:
+    #setup= setup + '-label'
 
 print('setup is' + setup)
 
@@ -47,20 +46,27 @@ with open(results.origin + species + 'IPR_GO_Remap','r') as f:
         for line in f:
             l = line.split()
             if l[0] != 'Taxid_A':
-                proteins.extend(l[3],l[4])
+                proteins.extend([l[3],l[4]])
         proteins = set(proteins)
         for id in proteins:
             w.write(id + '\n')
 
 with open(results.target + species + '-goa-association' + setup + '.txt','w') as x:
-    with open(results.target+ species +'-goa-population.txt','w') as y:
+    with open(results.target + species + '-goa-population.txt','w') as y:
         GO_P = MakeP2GO(species)
         GO_H = MakeP2GO_hum()
         proteins = []
-        proteins.extend(GO_P.keys(),GO_H.keys())
+        proteins.extend(GO_P.keys())
+        proteins.extend(GO_H.keys())
         for term in proteins:
             y.write(term + '\n')
             if term in GO_P.keys():
-                x.write(term + '\t' + GO_P(term)
-            if term in GO_P.keys():
-                x.write(term + '\t' + GO_H(term))
+                x.write(term + '\t')
+                for go in GO_P[term]:
+                    x.write(go + ',')
+                x.write('\n')
+            if term in GO_H.keys():
+                x.write(term + '\t')
+                for go in GO_H[term]:
+                    x.write(term + ',')
+                x.write('\n')
