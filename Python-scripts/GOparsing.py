@@ -10,7 +10,7 @@ ncbi = ete3.NCBITaxa()
 
 def MakeP2GO(species):
     print('start making GO dict')
-    with open ('../../Data-handling/Datasets/GO_' + species + '_out.txt') as f:
+    with open ('/Users/thesis/Desktop/Google drive/thesis-lorenz/Data-handling/Datasets/GO_' + species + '_out.txt') as f:
         GO_entry =[]
         P2GO = {}
         for line in f:
@@ -49,7 +49,7 @@ def Find_proteins(species,GO):
 
 def MakeP2GO_hum():
     print('start making GO hum dict')
-    with open ('../../Data-handling/Datasets/GO_human_out.txt') as f:
+    with open ('/Users/thesis/Desktop/Google drive/thesis-lorenz/Data-handling/Datasets/GO_human_out.txt') as f:
         GO_entry =[]
         P2GO_hum = {}
         for line in f:

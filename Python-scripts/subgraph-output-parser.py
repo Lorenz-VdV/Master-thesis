@@ -11,10 +11,32 @@ results = parser.parse_args()
 
 with open (results.origin,'r') as f:
     with open(results.target,'w') as w:
-        pattern = re.compile(r'(GO:[0-9]*)')
+        pattern_GO = re.compile(r'(GO:[0-9]*)')
+        pattern_4 = re.compile('-4')
+        pattern_3 = re.compile('-3')
+        pattern_2 = re.compile('-2')
         line = f.readline()
         for line in f:
-            match = set(re.findall(pattern,line))
-            for term in match:
-                line = re.sub(term,Find_GO_name(term),line)
-            w.write(line + '\n')
+            match_4 = re.search(pattern_4, line)
+            match_3 = re.search(pattern_3,line)
+            match_2 = re.search(pattern_2,line)
+            if match_4:
+                match_GO = set(re.findall(pattern_GO,line))
+                if len(match_GO) == 4:
+                    for term in match_GO:
+                        line = re.sub(term,Find_GO_name(term),line)
+                    w.write(line + '\n')
+            elif match_3:
+                match_GO = set(re.findall(pattern_GO,line))
+                if len(match_GO) == 3:
+                    for term in match_GO:
+                        line = re.sub(term,Find_GO_name(term),line)
+                    w.write(line + '\n')
+            elif match_2:
+                match_GO = set(re.findall(pattern_GO,line))
+                if len(match_GO) == 2:
+                    for term in match_GO:
+                        line = re.sub(term,Find_GO_name(term),line)
+                    w.write(line + '\n')
+            else:
+                continue

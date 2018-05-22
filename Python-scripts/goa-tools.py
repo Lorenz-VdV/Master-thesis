@@ -62,11 +62,15 @@ with open(results.target + species + '-goa-association' + setup + '.txt','w') as
             y.write(term + '\n')
             if term in GO_P.keys():
                 x.write(term + '\t')
-                for go in GO_P[term]:
-                    x.write(go + ',')
+                for i in range(0,len(GO_P[term])):
+                    x.write(GO_P[term][i])
+                    if i != len(GO_P[term]):
+                        x.write(',')
                 x.write('\n')
             if term in GO_H.keys():
                 x.write(term + '\t')
-                for go in GO_H[term]:
-                    x.write(term + ',')
+                for i in range(0,len(GO_H[term])):
+                    x.write(GO_H[term][i])
+                    if i != len(GO_H[term]):
+                        x.write(',')
                 x.write('\n')

@@ -11,7 +11,7 @@ def MakeP2IPR(species):
     print('start making IPR dict')
     IPR_entry=[]
     P2IPR_full={}
-    with open ('../../Data-handling/Datasets/ipr_' + species+ '_out.txt','r') as f:
+    with open ('/Users/thesis/Desktop/Google Drive/thesis-lorenz/Data-handling/Datasets/ipr_' + species+ '_out.txt','r') as f:
         for line in f:
             l = line.split('\t')
             if l[0] not in IPR_entry:
@@ -26,7 +26,7 @@ def MakeP2IPR(species):
 
     IPR_entry=[]
     P2IPR_ID={}
-    with open ('../../Data-handling/Datasets/ipr_' + species+ '_out.txt','r') as f:
+    with open ('/Users/thesis/Desktop/Google Drive/thesis-lorenz/Data-handling/Datasets/ipr_' + species+ '_out.txt','r') as f:
         for line in f:
             l = line.split('\t')
             if l[0] not in IPR_entry:
@@ -40,7 +40,7 @@ def MakeP2IPR(species):
 
     IPR_entry=[]
     P2IPR_name={}
-    with open ('../../Data-handling/Datasets/ipr_' + species+ '_out.txt','r') as f:
+    with open ('/Users/thesis/Desktop/Google Drive/thesis-lorenz/Data-handling/Datasets/ipr_' + species+ '_out.txt','r') as f:
         for line in f:
             l = line.split('\t')
             if l[0] not in IPR_entry:
@@ -78,7 +78,7 @@ def MakeP2IPR_hum():
     print('start making IPR hum dict')
     IPR_entry=[]
     P2IPR_full_hum={}
-    with open ('../../Data-handling/Datasets/ipr_human_out.txt','r') as f:
+    with open ('/Users/thesis/Desktop/Google Drive/thesis-lorenz/Data-handling/Datasets/ipr_human_out.txt','r') as f:
         for line in f:
             l = line.split('\t')
             if l[0] not in IPR_entry:
@@ -93,7 +93,7 @@ def MakeP2IPR_hum():
 
     IPR_entry=[]
     P2IPR_ID_hum={}
-    with open ('../../Data-handling/Datasets/ipr_human_out.txt','r') as f:
+    with open ('/Users/thesis/Desktop/Google Drive/thesis-lorenz/Data-handling/Datasets/ipr_human_out.txt','r') as f:
         for line in f:
             l = line.split('\t')
             if l[0] not in IPR_entry:
@@ -107,7 +107,7 @@ def MakeP2IPR_hum():
 
     IPR_entry=[]
     P2IPR_name_hum={}
-    with open ('../../Data-handling/Datasets/ipr_human_out.txt','r') as f:
+    with open ('/Users/thesis/Desktop/Google Drive/thesis-lorenz/Data-handling/Datasets/ipr_human_out.txt','r') as f:
         for line in f:
             l = line.split('\t')
             if l[0] not in IPR_entry:

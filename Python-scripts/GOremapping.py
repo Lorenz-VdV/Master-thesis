@@ -4,7 +4,7 @@ import os
 import xlwt
 import re
 
-GO = open("../../Data-handling/Datasets/go-basic.obo", 'r')
+GO = open("/Users/thesis/Desktop/Google drive/thesis-lorenz/Data-handling/Datasets/go-basic.obo", 'r')
 
 Gene_entry =[]
 all_entries =[]
