@@ -1,0 +1,25 @@
+edge3    75
+Name: (1protein binding _H-2cation binding _P, cation binding _P-3endoplasmic reticulum part _H), dtype: int64edge3    76
+Name: (1protein binding _H-2cellular biosynthetic process _P, cellular biosynthetic process _P-3adaptive immune response _H), dtype: int64edge3    82
+Name: (1protein binding _H-2cellular biosynthetic process _P, cellular biosynthetic process _P-3defense response _H), dtype: int64edge3    77
+Name: (1protein binding _H-2cellular biosynthetic process _P, cellular biosynthetic process _P-3endoplasmic reticulum part _H), dtype: int64edge3    85
+Name: (1protein binding _H-2cellular biosynthetic process _P, cellular biosynthetic process _P-3external side of plasma membrane _H), dtype: int64edge3    81
+Name: (1protein binding _H-2cellular biosynthetic process _P, cellular biosynthetic process _P-3homeostatic process _H), dtype: int64edge3    97
+Name: (1protein binding _H-2cellular biosynthetic process _P, cellular biosynthetic process _P-3immune system process _H), dtype: int64edge3    76
+Name: (1protein binding _H-2cellular biosynthetic process _P, cellular biosynthetic process _P-3intracellular organelle lumen _H), dtype: int64edge3    75
+Name: (1protein binding _H-2cellular biosynthetic process _P, cellular biosynthetic process _P-3regulation of homeostatic process _H), dtype: int64edge3    83
+Name: (1protein binding _H-2cellular nitrogen compound metabolic process _P, cellular nitrogen compound metabolic process _P-3defense response _H), dtype: int64edge3    76
+Name: (1protein binding _H-2cellular nitrogen compound metabolic process _P, cellular nitrogen compound metabolic process _P-3homeostatic process _H), dtype: int64edge3    80
+Name: (1protein binding _H-2cellular nitrogen compound metabolic process _P, cellular nitrogen compound metabolic process _P-3immune system process _H), dtype: int64edge3    81
+Name: (1protein binding _H-2nucleotide binding _P, nucleotide binding _P-3defense response _H), dtype: int64edge3    79
+Name: (1protein binding _H-2nucleotide binding _P, nucleotide binding _P-3homeostatic process _H), dtype: int64edge3    76
+Name: (1protein binding _H-2organic substance biosynthetic process _P, organic substance biosynthetic process _P-3adaptive immune response _H), dtype: int64edge3    82
+Name: (1protein binding _H-2organic substance biosynthetic process _P, organic substance biosynthetic process _P-3defense response _H), dtype: int64edge3    77
+Name: (1protein binding _H-2organic substance biosynthetic process _P, organic substance biosynthetic process _P-3endoplasmic reticulum part _H), dtype: int64edge3    85
+Name: (1protein binding _H-2organic substance biosynthetic process _P, organic substance biosynthetic process _P-3external side of plasma membrane _H), dtype: int64edge3    81
+Name: (1protein binding _H-2organic substance biosynthetic process _P, organic substance biosynthetic process _P-3homeostatic process _H), dtype: int64edge3    97
+Name: (1protein binding _H-2organic substance biosynthetic process _P, organic substance biosynthetic process _P-3immune system process _H), dtype: int64edge3    76
+Name: (1protein binding _H-2organic substance biosynthetic process _P, organic substance biosynthetic process _P-3intracellular organelle lumen _H), dtype: int64edge3    75
+Name: (1protein binding _H-2organic substance biosynthetic process _P, organic substance biosynthetic process _P-3regulation of homeostatic process _H), dtype: int64edge3    76
+Name: (1regulation of cellular process _H-2cellular biosynthetic process _P, cellular biosynthetic process _P-3immune system process _H), dtype: int64edge3    76
+Name: (1regulation of cellular process _H-2organic substance biosynthetic process _P, organic substance biosynthetic process _P-3immune system process _H), dtype: int64

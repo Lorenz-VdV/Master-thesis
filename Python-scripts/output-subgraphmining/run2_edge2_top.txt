@@ -1,0 +1,15 @@
+edge3    61
+Name: (1protein binding _H-2ATP binding _P, ATP binding _P-3nucleoplasm part _H), dtype: int64edge3    62
+Name: (1protein binding _H-2cellular nitrogen compound biosynthetic process _P, cellular nitrogen compound biosynthetic process _P-3cellular protein localization _H), dtype: int64edge3    64
+Name: (1protein binding _H-2cellular nitrogen compound biosynthetic process _P, cellular nitrogen compound biosynthetic process _P-3identical protein binding _H), dtype: int64edge3    64
+Name: (1protein binding _H-2cellular nitrogen compound biosynthetic process _P, cellular nitrogen compound biosynthetic process _P-3immune system process _H), dtype: int64edge3    69
+Name: (1protein binding _H-2cellular nitrogen compound biosynthetic process _P, cellular nitrogen compound biosynthetic process _P-3negative regulation of immune system process _H), dtype: int64edge3    61
+Name: (1protein binding _H-2cellular nitrogen compound biosynthetic process _P, cellular nitrogen compound biosynthetic process _P-3negative regulation of multicellular organismal process _H), dtype: int64edge3    86
+Name: (1protein binding _H-2cellular nitrogen compound biosynthetic process _P, cellular nitrogen compound biosynthetic process _P-3positive regulation of immune system process _H), dtype: int64edge3    61
+Name: (1protein binding _H-2cellular nitrogen compound biosynthetic process _P, cellular nitrogen compound biosynthetic process _P-3protein complex subunit organization _H), dtype: int64edge3    77
+Name: (1protein binding _H-2cellular nitrogen compound biosynthetic process _P, cellular nitrogen compound biosynthetic process _P-3regulation of cell activation _H), dtype: int64edge3    67
+Name: (1protein binding _H-2cellular nitrogen compound biosynthetic process _P, cellular nitrogen compound biosynthetic process _P-3regulation of cell motility _H), dtype: int64edge3    68
+Name: (1protein binding _H-2cellular nitrogen compound biosynthetic process _P, cellular nitrogen compound biosynthetic process _P-3regulation of cellular component movement _H), dtype: int64edge3    63
+Name: (1protein binding _H-2cellular nitrogen compound biosynthetic process _P, cellular nitrogen compound biosynthetic process _P-3regulation of immune response _H), dtype: int64edge3    90
+Name: (1protein binding _H-2cellular nitrogen compound biosynthetic process _P, cellular nitrogen compound biosynthetic process _P-3regulation of leukocyte activation _H), dtype: int64edge3    61
+Name: (1protein binding _H-2nucleotide binding _P, nucleotide binding _P-3nucleoplasm part _H), dtype: int64
