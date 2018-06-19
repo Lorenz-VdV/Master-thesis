@@ -1,0 +1,16 @@
+edge3    99
+Name: (1intracellular part -2cellular metabolic process , cellular metabolic process -3immune system process ), dtype: int64edge3    113
+Name: (1intracellular part -2cellular metabolic process , cellular metabolic process -3leukocyte migration ), dtype: int64edge3    102
+Name: (1intracellular part -2cellular metabolic process , cellular metabolic process -3side of membrane ), dtype: int64edge3    108
+Name: (1intracellular part -2heterocyclic compound binding , heterocyclic compound binding -3leukocyte migration ), dtype: int64edge3    108
+Name: (1intracellular part -2organic cyclic compound binding , organic cyclic compound binding -3leukocyte migration ), dtype: int64edge3    98
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3activation of immune response ), dtype: int64edge3    99
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3immune system process ), dtype: int64edge3    110
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3leukocyte migration ), dtype: int64edge3    99
+Name: (1membrane-bounded organelle -2cellular metabolic process , cellular metabolic process -3leukocyte migration ), dtype: int64edge3    100
+Name: (1protein binding -2cellular metabolic process , cellular metabolic process -3immune system process ), dtype: int64edge3    111
+Name: (1protein binding -2cellular metabolic process , cellular metabolic process -3leukocyte migration ), dtype: int64edge3    99
+Name: (1protein binding -2cellular metabolic process , cellular metabolic process -3side of membrane ), dtype: int64edge3    101
+Name: (1protein binding -2heterocyclic compound binding , heterocyclic compound binding -3leukocyte migration ), dtype: int64edge3    101
+Name: (1protein binding -2organic cyclic compound binding , organic cyclic compound binding -3leukocyte migration ), dtype: int64edge3    105
+Name: (1protein binding -2organic substance metabolic process , organic substance metabolic process -3leukocyte migration ), dtype: int64

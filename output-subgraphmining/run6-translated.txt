@@ -1,4 +1,0 @@
-1cytoplasm _H-2molecular_function _P	306	306	0.7828901795620428
-
-1cytoplasm _H-2biological_process _P	321	321	0.7729298456630593
-

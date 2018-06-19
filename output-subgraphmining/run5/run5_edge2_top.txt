@@ -1,0 +1,6 @@
+edge3    2
+Name: (1protein binding _H-2biological_process _P, biological_process _P-3membrane _H), dtype: int64edge3    2
+Name: (1protein binding _H-2biological_process _P, biological_process _P-3regulation of cellular metabolic process _H), dtype: int64edge3    2
+Name: (1protein binding _H-2biological_process _P, biological_process _P-3regulation of macromolecule metabolic process _H), dtype: int64edge3    2
+Name: (1protein binding _H-2molecular_function _P, molecular_function _P-3membrane _H), dtype: int64edge3    2
+Name: (1protein binding _H-2molecular_function _P, molecular_function _P-3regulation of macromolecule metabolic process _H), dtype: int64

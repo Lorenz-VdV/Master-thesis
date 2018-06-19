@@ -1,0 +1,31 @@
+edge3    49
+Name: (1intracellular part -2cellular metabolic process , cellular metabolic process -3cellular response to stimulus ), dtype: int64edge3    46
+Name: (1intracellular part -2cellular metabolic process , cellular metabolic process -3extracellular region ), dtype: int64edge3    43
+Name: (1intracellular part -2cellular metabolic process , cellular metabolic process -3heterocyclic compound binding ), dtype: int64edge3    45
+Name: (1intracellular part -2cellular metabolic process , cellular metabolic process -3nitrogen compound metabolic process ), dtype: int64edge3    47
+Name: (1intracellular part -2cellular metabolic process , cellular metabolic process -3organic substance metabolic process ), dtype: int64edge3    45
+Name: (1intracellular part -2cellular metabolic process , cellular metabolic process -3primary metabolic process ), dtype: int64edge3    47
+Name: (1intracellular part -2cellular metabolic process , cellular metabolic process -3protein binding ), dtype: int64edge3    43
+Name: (1intracellular part -2cellular metabolic process , cellular metabolic process -3regulation of biological quality ), dtype: int64edge3    51
+Name: (1intracellular part -2cellular metabolic process , cellular metabolic process -3response to chemical ), dtype: int64edge3    49
+Name: (1intracellular part -2cellular metabolic process , cellular metabolic process -3response to stress ), dtype: int64edge3    43
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3biosynthetic process ), dtype: int64edge3    51
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3cellular metabolic process ), dtype: int64edge3    50
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3cellular response to stimulus ), dtype: int64edge3    44
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3extracellular organelle ), dtype: int64edge3    51
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3extracellular region ), dtype: int64edge3    44
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3heterocyclic compound binding ), dtype: int64edge3    43
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3intracellular organelle ), dtype: int64edge3    48
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3nitrogen compound metabolic process ), dtype: int64edge3    43
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3organic cyclic compound binding ), dtype: int64edge3    47
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3primary metabolic process ), dtype: int64edge3    45
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3protein binding ), dtype: int64edge3    43
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3regulation of biological process ), dtype: int64edge3    48
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3regulation of biological quality ), dtype: int64edge3    53
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3response to chemical ), dtype: int64edge3    50
+Name: (1intracellular part -2organic substance metabolic process , organic substance metabolic process -3response to stress ), dtype: int64edge3    43
+Name: (1intracellular part -2primary metabolic process , primary metabolic process -3cellular response to stimulus ), dtype: int64edge3    50
+Name: (1intracellular part -2primary metabolic process , primary metabolic process -3response to chemical ), dtype: int64edge3    46
+Name: (1intracellular part -2primary metabolic process , primary metabolic process -3response to stress ), dtype: int64edge3    44
+Name: (1membrane-bounded organelle -2organic substance metabolic process , organic substance metabolic process -3response to chemical ), dtype: int64edge3    45
+Name: (1protein binding -2organic substance metabolic process , organic substance metabolic process -3response to chemical ), dtype: int64
