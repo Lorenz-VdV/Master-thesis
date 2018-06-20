@@ -1,7 +1,3 @@
-#Study set: file met alle uniprotIDs die we willen bestuderen onder elkaar in 1 kolom (is een subset van de population set)
-#Population set: file met alle uniprotIDs die we willen gebruiken als achtergrond onder elkaar in 1 kolom (bevat ook de study set)
-#Association file: basically de population set met een tweede kolom in waarin alle GO termen in staan (; tussen termen en tab tussen de kolommen)
-
 import pandas as pd
 import numpy as np
 from GOparsing import MakeP2GO, MakeP2GO_hum
