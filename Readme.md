@@ -199,16 +199,14 @@ included in the results. However, this also prevents this script to be
 used for translation of not fully labelled files. Nevertheless, this can
 be easily solved with small modifications to this script.
 
-Files to be ignored
+File
 -------------------
 
-***Python-notebooks**:* contains iPython notebooks which are interactive
+***Python-notebooks***: contains iPython notebooks which are interactive
 python scripts used to ease the writing process of the python scripts.
 These notebooks are the predecessors of the abovementioned final python
 scripts.
 
-***\_ipynb\_checkpoints***: linked with the python-notebooks (contain
-saves?)
 
 ***.gitignore:*** determines which files of the local copy (on my pc) of
 this repository can be ignored during synchronization.
