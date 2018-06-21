@@ -199,8 +199,8 @@ included in the results. However, this also prevents this script to be
 used for translation of not fully labelled files. Nevertheless, this can
 be easily solved with small modifications to this script.
 
-File
--------------------
+Files that can be ignored
+--------------------------
 
 ***Python-notebooks***: contains iPython notebooks which are interactive
 python scripts used to ease the writing process of the python scripts.
